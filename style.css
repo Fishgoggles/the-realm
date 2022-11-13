@@ -1,37 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-Body, HTML {
-	Height: 100%;
-	Margin: 0px;
-	Padding: 0px;
-	Border: 0px;
+Body {
+  Height: 100vh;
+  Background: Radial-gradient(Ellipse at center, #002341 0%, #000000 100%);
+  Overflow: hidden;
 }
 
-@Font-Face {
-
-}
-
-* {
-  box-sizing: border-box;
-}
-
-
-.bg-image {
-	background-image: url("images/bg_starry.png");
-	Height: 100%;
-	-webkit-filter:blur(4px);
-}
+	
 
 .Warn-Text {
-  background-color: rgb(0, 10, 15);
-  color: #aaf0d2;
-  font-family: 'Press Start 2P';
-  border: 10px solid #aaf0d2;
+  border-style: solid;
+  border-color: #aaf0d2;
+  background-color: #002341;
+  border-spacing: 20px;
   position: absolute;
+  /* from here */
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 75%;
-  padding: 15px;
+  /* to here */
+  /* This (^) code allows you center the text! */
   text-align: center;
+  font-family: 'Press Start 2P';
+  color: #67e4af;
 }
